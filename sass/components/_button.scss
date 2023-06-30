@@ -21,6 +21,14 @@
       color: $color-grey-dark;
     }
   
+  } &--green{
+  
+    background-color:$color-primary !important;
+    &::after{
+      background-color: $color-primary;
+      color: $color-white;
+    }
+  
   }
   
     &:hover{
