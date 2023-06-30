@@ -1,5 +1,6 @@
 <template>
 <link href="https://fonts.googleapis.com/css?family=Lato: 100, 300, 400,700,900" rel="stylesheet">
+<link rel="stylesheet" href="icons-fonts.css">
 
 <header class="header">
   <div class="header__logo-box">
@@ -41,13 +42,93 @@
     </div>
     </div>
     </section>
+
+    
+      <section class="section-features ">
+        <div id="row-size" class="row-col">
+      <div class="col-1-of-4">
+        <div class="feature-box">
+        <i class="feature-box__icon icon-basic-world"></i>
+        <h3 class="heading-tertiary u-margin-bottom-small">Explore the world</h3>
+        <p class="feature box__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur.</p>
+      </div>
+      </div>
+      <div class="col-1-of-4">
+        <div class="feature-box">
+        <i class="feature-box__icon icon-basic-compass"></i>
+        <h3 class="heading-tertiary u-margin-bottom-small">Meet nature</h3>
+        <p class="feature box__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur.</p>
+      </div>
+      </div>
+      <div class="col-1-of-4">
+        <div class="feature-box">
+        <i class="feature-box__icon icon-basic-map"></i>
+        <h3 class="heading-tertiary u-margin-bottom-small">Find your way</h3>
+        <p class="feature box__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur.</p>
+      </div>
+      </div>
+      <div class="col-1-of-4">
+        <div class="feature-box">
+        <i class="feature-box__icon icon-basic-heart"></i>
+        <h3 class="heading-tertiary u-margin-bottom-small">Live a healthier life</h3>
+        <p class="feature box__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur.</p>
+      </div>
+      </div>
+    </div>
+</section>
+
+<section class="section-tours">
+  <div class="u-center-text u-margin-bottom-big">
+      <h2 class="heading-secondary">Most popular tour</h2>
+    </div>
+    <div id="row-size" class="row-col">
+      <div class="col-1-of-3">
+        <div class="card">
+          <div class="card__side card__side--front">
+            <div class="card__picture card__picture--1">
+              &nbsp;
+            </div>
+            <h4 class="card__heading">
+              <span class="card__heading-span card__heading-span--1"></span>
+                  The Sea Explorer
+            </h4>
+            <div class="card__details">
+                  details
+            </div>
+           </div>
+           <div class="card__side card__side--back card__side--back-1">
+            
+           </div>
+           
+          </div>
+         </div>
+         <div class="col-1-of-3">
+          <div class="card">
+           <div class="card__side">
+            
+           </div>
+          </div>
+          
+         </div>
+    
+    <div class="col-1-of-3">
+      <div class="card">
+           <div class="card__side">
+            
+           </div>
+          </div>
+         </div>
+        </div>
+</section>
  </main>
 </template>
 
 
 <style>
 @import 'style.css';
+@import 'icons-fonts.css'
 </style>
+
 
 
 
