@@ -1,4 +1,4 @@
-Natours is a web application offering users a platform to discover and book nature tours and activities. It provides an intuitive interface and a range of features to enhance the user experience.
+Natours is a website offering users a platform to discover and book nature tours and activities. It provides an intuitive interface and a range of features to enhance the user experience.
 
 Technologies Used:
 
