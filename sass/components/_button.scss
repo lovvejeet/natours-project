@@ -65,10 +65,11 @@
   }
   
   &--animated {
-      animation: moveInBottom .5s ease-out .75s;
+      animation: moveInBtn .8s ease-out .75s;
       animation-fill-mode: backwards;
   }
 }
+
 
 .btnbtn-text {
   &:link,
