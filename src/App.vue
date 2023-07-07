@@ -43,7 +43,7 @@
         <span class="heading-primary--main">Outdoors</span>
         <span class="heading-primary--sub">is where life happens</span>
       </h1>
-      <a href="#" class="btnbtn btnbtn--white btnbtn--animated"
+      <a href="#section-tours" class="btnbtn btnbtn--white btnbtn--animated"
         >Discover our tours</a
       >
     </div>
@@ -432,8 +432,8 @@
   <div class="popup" id="popup">
     <div class="popup__content">
       <div class="popup__left">
-        <img src="img/nat-8.jpg" alt="Tour photo" class="popup__img" />
-        <img src="img/nat-9.jpg" alt="Tour photo" class="popup__img" />
+        <img src="..\src\assets\nat-8.jpg" alt="Tour photo" class="popup__img" />
+        <img src="..\src\assets\nat-9.jpg" alt="Tour photo" class="popup__img" />
       </div>
       <div class="popup__right">
         <a href="#section-tours" class="popup__close">&times;</a>
@@ -462,18 +462,6 @@
       </div>
     </div>
   </div>
-
-  <div class="col-1-of-2">
-        <p class="footer__copyright">
-          Built by <a href="#" class="footer__link">Lovejeet Singh</a> for his
-          online course
-          <a href="#" class="footer__link">Advanced CSS and Sass</a>. Copyright
-          &copy; by Jonas Schmedtmann. You are 100% allowed to use this webpage
-          for both personal and commercial use, but NOT to claim it as your own
-          design. A credit to the original author, Jonas Schmedtmann, is of
-          course highly appreciated!
-        </p>
-      </div>
 </template>
 
 <style>
